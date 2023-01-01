@@ -1,0 +1,26 @@
+.post_list_container .card-text::-webkit-scrollbar{
+    width: 2px;
+    background-color: white;
+}
+.post_list_container .card-text::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+.action_btn_container button{
+    background-color: rgb(229, 229, 229);
+    cursor: pointer;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.create_post_btn{
+    margin-top: 10px;
+}
+.create_post_btn a{
+    text-decoration: none;
+    color: white;
+    background-color: #1865f5;
+    padding: 6px 20px;
+    border-radius: 7px;
+}
